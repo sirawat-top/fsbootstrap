@@ -1,15 +1,10 @@
 *
 {
-    font-family: 'Poppins',sans-serif;
-    
-}
-.nav
-{
-    background-color: #e3f2fd;
+    font-family: 'Poppins',sans-serif;  
 }
 .products
 {
-    background: radial-gradient(#fff,#ffd6d6)
+    background: #fff;
 }
 .container-fluid img
 {
@@ -31,12 +26,20 @@
    margin-top: 30px;
    margin-left: 10px;
    border: none;
-   background-color: blanchedalmond;
+   background: radial-gradient(#fff,#ffd6d6);
+   margin-bottom: 10px;
 }
 .container .row .card img
 {
     width: 250px;
     height: 250px;
+    margin-left: 7px;
+    margin-top: 9px;
+}
+.container .row .card a
+{
+    background: aquamarine;
+    border: none;
 }
 footer
 {
@@ -50,7 +53,7 @@ footer h4
 }
 footer .icon
 {
-    margin-left: 40%;
+    margin-left: 37%;
 }
 footer .icon i
 {
